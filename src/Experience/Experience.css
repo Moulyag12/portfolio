@@ -1,0 +1,48 @@
+/* Experience Section */
+.experience-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: white;
+    text-align: center;
+}
+
+/* Title Styling */
+.experience-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffd700;
+    margin-bottom: 15px;
+}
+
+/* List Styling */
+.experience-list {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.experience-item {
+    background: rgba(255, 255, 255, 0.2);
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.experience-item:hover {
+    transform: scale(1.02);
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* Responsive */
+@media only screen and (max-width: 600px) {
+    .experience-container {
+        width: 90%;
+    }
+}

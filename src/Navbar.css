@@ -1,0 +1,107 @@
+.navbar {
+    background: linear-gradient(90deg, rgba(212,86,139,1) 0%, rgba(80,130,180,1) 100%);
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+    position: fixed;  /* Fix the navbar at the top */
+    top: 0;           /* Align to the top */
+    left: 0;
+    right:0;
+    /* width: 90%;    */
+    height: 40px;     /* Increase height for better spacing */
+    z-index: 1000;    /* Ensure it stays above other elements */
+}
+
+
+.navbar-name {
+    font-size: 15px;
+    color: white;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    font-style: normal;
+    text-decoration: wavy;
+    display: flex;
+}
+.navbar-name:hover {
+    background: linear-gradient(45deg, #34ad2b, #007bff);
+    width: 85px;
+    height: 20px;
+    padding-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: #34ad2b;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-right: 10px;
+}
+
+.navbar-links {
+    gap: 10px;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: wavy;
+    margin: 0 15px;
+    font-size: 15px;
+    transition: color 0.3s ease;
+    font-style: normal;
+}
+
+
+.navbar-links a:hover,
+.navbar-links a.selected {
+    background: linear-gradient(45deg, #34ad2b, #007bff);
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    border: #34ad2b;
+    border-radius: 8px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 10px;
+}
+
+.hamburger-menu {
+    display: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 40px;
+        left: 0;
+        width: 100%;
+        background: linear-gradient(90deg, rgba(212,86,139,1) 0%, rgba(80,130,180,1) 100%);
+        padding: 20px 0;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+    }
+
+    .navbar-links.mobile-open {
+        display: flex;
+        opacity: 1;
+        transform: translateY(0)
+    }
+
+    .hamburger-menu {
+        display: flex;
+        font-size: 20px;
+        color: white;
+        cursor:pointer;
+    }
+
+    .nav-link {
+        padding: 10px 20px;
+        font-size: 16px;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+}

@@ -1,0 +1,54 @@
+.text {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 30px;
+  color: whitesmoke;
+  letter-spacing: 2px;
+}
+
+/* Center the about section and improve readability */
+.about-text {
+  text-align: center;
+  line-height: 2;
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+  margin: 50px auto;
+  padding: 20px;
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+  color: #f5ebeb;
+  background: rgba(255, 255, 255, 0.1); /* Soft transparent background */
+  border-radius: 10px;
+  max-width: 800px; /* Keep text width balanced */
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); /* Subtle shadow */
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+  .about-text {
+      font-size: 16px;
+      line-height: 1.8;
+      padding: 15px;
+      margin: 50px auto;
+      width: 90%; 
+      letter-spacing: 0.5px;
+      word-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .about-text {
+      font-size: 14px;
+      line-height: 1.8;
+      padding: 10px;
+      margin: 30px auto;
+      width: 95%;
+      letter-spacing: 0.5px;
+     word-spacing: 2px;
+  }
+
+  .text {
+      font-size: 2rem; /* Adjust heading size for small screens */
+  }
+}

@@ -1,0 +1,119 @@
+/* Home Container */
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 100px;
+  position: relative;
+}
+
+/* Developer Illustration */
+.image-container {
+  flex: 1;
+  text-align: center;
+}
+
+.right-image {
+  width: 400px;
+  height: auto;
+  border-radius: 10px;
+}
+
+/* Developer Introduction */
+.intro-dev {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
+}
+
+.animated-text h2 {
+  color: #ece5e8;
+  font-size: 28px;
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.social-icon {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  padding: 10px;
+  background: linear-gradient(45deg, #ff0066, #00b5e2);
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+  color: white;
+}
+
+.social-icon:hover {
+  transform: scale(1.2);
+  background: linear-gradient(45deg, #34ad2b, #007bff);
+}
+
+/* Resume Button */
+.res-button {
+  width: 200px;
+  height: 45px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(45deg, #ff0066, #00b5e2);
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.res-button:hover {
+  transform: scale(1.1);
+  background: linear-gradient(45deg, #34ad2b, #007bff);
+}
+
+/* Typing Animation */
+@keyframes slideText {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+@media only screen and (max-width: 768px) {
+  .home-container {
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+      padding: 50px 20px;
+  }
+
+  .image-container {
+      order: 1; 
+      margin-bottom: 20px;
+  }
+
+  .right-image {
+      width: 80%;
+      height: auto;
+  }
+
+  .intro-dev {
+      width: 100%;
+      text-align: center;
+      padding: 0 20px;
+  }
+
+  .social-icons {
+      justify-content: center;
+      gap: 10px;
+      margin-top: 15px;
+  }
+
+  .res-button {
+      margin: 20px auto;
+      display: block;
+  }
+}
