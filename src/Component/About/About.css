@@ -7,7 +7,6 @@
   letter-spacing: 2px;
 }
 
-/* Center the about section and improve readability */
 .about-text {
   text-align: center;
   line-height: 2;
@@ -18,37 +17,35 @@
   font-size: 18px;
   font-family: 'Arial', sans-serif;
   color: #f5ebeb;
-  background: rgba(255, 255, 255, 0.1); /* Soft transparent background */
+  background: rgba(255, 255, 255, 0.1); 
   border-radius: 10px;
-  max-width: 800px; /* Keep text width balanced */
-  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); /* Subtle shadow */
+  max-width: 800px; 
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1); 
 }
 
-/* Responsive adjustments */
 @media only screen and (max-width: 768px) {
   .about-text {
       font-size: 16px;
       line-height: 1.8;
       padding: 15px;
       margin: 50px auto;
-      width: 90%; 
+      width: 90%;
       letter-spacing: 0.5px;
       word-spacing: 2px;
-  }
+}
 }
 
 @media only screen and (max-width: 480px) {
   .about-text {
-      font-size: 14px;
+    font-size: 14px;
       line-height: 1.8;
-      padding: 10px;
-      margin: 30px auto;
-      width: 95%;
-      letter-spacing: 0.5px;
-     word-spacing: 2px;
+    padding: 10px;
+    width: 100%;
+    text-align: justify;
+
   }
 
   .text {
-      font-size: 2rem; /* Adjust heading size for small screens */
+      font-size: 2rem; 
   }
 }

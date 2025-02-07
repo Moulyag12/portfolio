@@ -1,4 +1,3 @@
-/* Contact Form Styling */
 .contact-container {
     width: 500px;
     margin: 50px auto;
@@ -89,7 +88,6 @@ textarea {
     background: linear-gradient(45deg, #34ad2b, #007bff);
 }
 
-/* Success & Error Messages */
 .success-message, .error-message {
     margin-top: 10px;
     font-size: 14px;
@@ -104,7 +102,6 @@ textarea {
     color: #ff0000;
 }
 
-/* Popup Modal */
 .modal {
     position: fixed;
     top: 0;
@@ -167,13 +164,11 @@ textarea {
     background: #45c16a;
 }
 
-/* Animations */
 @keyframes fadeIn {
     from { opacity: 0; transform: scale(0.9); }
     to { opacity: 1; transform: scale(1); }
 }
 
-/* Responsive */
 @media only screen and (max-width: 600px) {
     .contact-container {
         width: 90%;

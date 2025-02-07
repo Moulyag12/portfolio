@@ -1,7 +1,7 @@
 import React from 'react';
 import './ProjectsCard.css';
 
-function ProjectCard({ image, title, liveLink, repoLink }) {
+function ProjectCard({ image, title, repoLink }) {
   return (
     <div className="project-card">
       <img src={image} alt={`${title} preview`} className="project-image" />

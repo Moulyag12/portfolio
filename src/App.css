@@ -69,7 +69,7 @@ body {
     min-height: 100%;
     display: flex;
     flex-direction: column;
-    overflow-x: hidden; /* Disable horizontal scrolling */
+    overflow-x: hidden; 
     scroll-behavior: smooth;
      
   }
@@ -83,49 +83,26 @@ body {
 }
 
 html {
-  scroll-behavior: smooth; /* Enables smooth scrolling */
+  scroll-behavior: smooth;
 }
 
 section {
-  min-height: 100vh; /* Each section takes full screen */
-  padding: 30px;
+  min-height: 100vh; 
+  padding: 35px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-/* 
-.star {
-  position: absolute;
-  width: 3px;
-  height: 3px;
-  background: white;
-  border-radius: 50%;
-  box-shadow: 0 0 10px white;
-  animation: moveStar linear infinite;
-  z-index: 5;
-}
-
-@keyframes moveStar {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(100vh);
-  }
-}
-
-
- */
 
 
 #particles-js {
-  position: fixed; /* Sticks to the viewport */
+  position: fixed; 
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: -1; /* Ensure it stays behind all other content */
-  pointer-events: none; /* Prevents interfering with clicks */
+  z-index: -1; 
+  pointer-events: none; 
 }
 
 .App {

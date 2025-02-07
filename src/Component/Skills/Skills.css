@@ -3,9 +3,10 @@
     font-size: 2.5rem;
     font-weight: bold;
     margin-top: 30px;  
-    color: whitesmoke; 
-    /* text-transform: uppercase; */
-    letter-spacing: 2px;
+    color: white;
+    margin-bottom: 30px;
+   
+
 }
 .skill-container{
     display: flex;

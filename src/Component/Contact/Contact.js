@@ -49,7 +49,6 @@ function Contact() {
                 </button>
             </form>
 
-            {/* Popup Modal */}
             {isModalOpen && (
                 <div className="modal">
                     <div className="modal-content">

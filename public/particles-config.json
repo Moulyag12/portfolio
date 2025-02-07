@@ -41,18 +41,17 @@
       "enable": true,
       "distance": 150,
       "color": "#FFD700",
-      "opacity": 0.6,
+      "opacity": 0.3,
       "width": 1.2
     },
-    "move": {
-      "enable": true,
-      "speed": 3,
-      "direction": "none",
-      "random": true,
-      "straight": false,
-      "out_mode": "bounce",
-      "bounce": true
-    }
+   "move": {
+  "enable": true,
+  "speed": 3,
+  "direction": "none",
+  "straight": false,
+  "out_mode": "out",
+  "attract": { "enable": true, "rotateX": 600, "rotateY": 600 }
+}
   },
   "interactivity": {
     "detect_on": "canvas",

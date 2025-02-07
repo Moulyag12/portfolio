@@ -4,15 +4,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    
-    position: fixed;  /* Fix the navbar at the top */
-    top: 0;           /* Align to the top */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);    
+    position: fixed; 
+    top: 0;         
     left: 0;
     right:0;
-    /* width: 90%;    */
-    height: 40px;     /* Increase height for better spacing */
-    z-index: 1000;    /* Ensure it stays above other elements */
+    height: 40px;     
+    z-index: 1000;   
 }
 
 

@@ -9,7 +9,6 @@ function Home() {
   const [isDisappearing, setIsDisappearing] = useState(false);
   const [index, setIndex] = useState(0);
 
-  // Cursor Effect
   useEffect(() => {
     const cursor = document.createElement('div');
     cursor.classList.add('cursor');
@@ -28,7 +27,6 @@ function Home() {
     };
   }, []);
 
-  // Resume Download Function
   const downloadResume = () => {
     const link = document.createElement('a');
     link.href = '/Moulya_Res.pdf';
@@ -38,7 +36,6 @@ function Home() {
     document.body.removeChild(link);
   };
 
-  // Typing Animation
   useEffect(() => {
     const interval = setInterval(() => {
       if (!isDisappearing) {
