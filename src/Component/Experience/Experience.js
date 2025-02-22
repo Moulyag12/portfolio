@@ -6,7 +6,7 @@ import "./Experience.css";
 function Experience() {
   return (
     <div>
-      <h1 className="section-title">My Experience</h1>
+      <h1 className="section-title">Experience</h1>
     <div className="experience-container">
       <div className="experience-section">
         <h2 className="experience-title">Software Engineer at Subex</h2>

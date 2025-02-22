@@ -30,7 +30,7 @@ function Home() {
   const downloadResume = () => {
     const link = document.createElement('a');
     link.href = '/Moulya_Res.pdf';
-    link.download = 'Moulya_G_Resume.pdf';
+    link.download = 'Moulya_G_SoftwareEngineer.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

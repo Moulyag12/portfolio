@@ -21,7 +21,7 @@ const skills = [
 ];
 function Skills() {
     return <div>
-   <h1 className="skills-heading">My Skills</h1>
+   <h1 className="skills-heading"> Skills</h1>
    <div className="skill-container">
     {skills.map((skill,index)=>(
         <div key={index} className="skill-item">
