@@ -5,7 +5,7 @@ import './Home.css';
 
 function Home() {
   const [displayedText, setDisplayedText] = useState("");
-  const fullText = "FrontEnd Developer";
+  const fullText = "Software Developer";
   const [isDisappearing, setIsDisappearing] = useState(false);
   const [index, setIndex] = useState(0);
 
@@ -29,7 +29,7 @@ function Home() {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Moulya_Res.pdf';
+    link.href = '/Moulyag_Res.pdf';
     link.download = 'Moulya_G_SoftwareEngineer.pdf';
     document.body.appendChild(link);
     link.click();

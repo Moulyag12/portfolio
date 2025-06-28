@@ -1,17 +1,20 @@
 import './About.css';
-import React from 'react';
 
 function About() {
   return<div>
     <h1 className='text'>About Me</h1>
    <div className="about-text" id="about">
 
-  Hi there! I'm Moulya G, a passionate frontend developer. With a keen interest
-  in exploring and mastering new technologies, I'm always eager to dive into
-  the latest tech stack to enhance my skills and create innovative solutions.
-  Driven by a relentless dedication to my craft,I approach everything with a lot of
-  enthusiasm and attention to detail. Whether it's crafting pixel-perfect designs
-  or writing clean and efficient code, I strive for excellence in everything I do.
+  Hi there! I'm Moulya G, a passionate Passionate Software Engineer 
+  with 2 years of experience specializing in building scalable systems
+  and intuitive user interfaces. Proficient in Java, Spring Boot, 
+  Angular, and JavaScript, with a strong focus on optimizing performance 
+  and delivering real-time data processing solutions across distributed
+  applications. Proven ability to contribute to significant improvements 
+  in application performance, reduce manual errors, and enhance system 
+  reliability. Strong team collaborator, working effectively across teams
+  to deliver scalable and efficient solutions. Always eager to learn, 
+  innovate, and solve complex challenges..
 </div>
 </div>
 }
