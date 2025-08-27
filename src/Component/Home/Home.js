@@ -29,7 +29,7 @@ function Home() {
 
   const downloadResume = () => {
     const link = document.createElement('a');
-    link.href = '/Moulyag_Res.pdf';
+    link.href = '/MoulyaG_SDE.pdf';
     link.download = 'Moulya_G_SoftwareEngineer.pdf';
     document.body.appendChild(link);
     link.click();
@@ -71,9 +71,12 @@ function Home() {
           <a href="https://www.linkedin.com/in/moulya-g/" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaLinkedin size={25} />
           </a>
-          <a href="mailto:gmoulya2001@gmail.com" className="social-icon">
-            <FaEnvelope size={25} />
-          </a>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=gmoulya2001@gmail.com"
+           target="_blank"
+           rel="noopener noreferrer"
+           className="social-icon">
+           <FaEnvelope size={25} />
+         </a>
           <a href="https://github.com/Moulyag12" target="_blank" rel="noopener noreferrer" className="social-icon">
             <FaGithub size={25} />
           </a>
