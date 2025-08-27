@@ -26,7 +26,7 @@ function Contact() {
     return (
         <div className="contact-container" id="contact">
             <h1 className="contact-title">Contact Me</h1>
-            <p className="contact-subtitle">I'd love to hear from you!</p>
+            <p className="contact-subtitle">I'd be happy to hear from you!</p>
             
             <form ref={form} onSubmit={sendEmail} className="contact-form">
                 <div className="input-group">
